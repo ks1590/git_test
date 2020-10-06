@@ -7,6 +7,7 @@ function hoge() {
 
   return year + "年" + month + "月" + day + "日";
 }
+document.getElementById('realbox').value = hoge()
 
 // 関数式
 let hoge = function () {
@@ -17,6 +18,7 @@ let hoge = function () {
 
   return year + "年" + month + "月" + day + "日";
 }
+document.getElementById('realbox').value = hoge()
 
 // 匿名関数＋コールバック関数
 function confirmed(fn) {
@@ -42,3 +44,4 @@ let hoge = () => {
 
   return year + "年" + month + "月" + day + "日";
 }
+document.getElementById('realbox').value = hoge()
